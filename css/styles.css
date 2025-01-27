@@ -1,0 +1,45 @@
+:root{
+    --color-principal: #427074;
+
+}
+
+body{
+    background-color:var(--color-principal);
+   
+}
+
+/* NAVBAR*/
+
+.navbar{
+    background-color: var(--color-principal);
+    border-radius: 5px;
+}
+
+/*ESTILOS GENERALES*/
+
+.sombra{
+    box-shadow: 10px 10px 11px -4px rgba(0, 0, 0, 0.671);
+-webkit-box-shadow: 10px 10px 11px -4px rgba(0, 0, 0, 0.692);
+-moz-box-shadow: 10px 10px 11px -4px rgba(0, 0, 0, 0.664);
+}
+
+
+.neomurf{
+    border-radius: 50px;
+    background: #427074;
+    box-shadow:  -20px 20px 60px #385f63,
+                 20px -20px 60px #4c8185;
+}
+
+/*VARIABLES TEXTI*/
+
+.texto-blanco{
+    color:azure;
+}
+
+.fuente-principal{
+    font-family: "Orbitron", serif;
+    letter-spacing: 0.20em;
+    
+   
+}
