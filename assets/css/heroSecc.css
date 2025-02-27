@@ -1,0 +1,30 @@
+.seccion{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    padding: 20px;
+}
+.contenedor1{
+    grid-column: 1;
+    font-size: 34px;
+    padding: 10px;
+}
+.text-hero{
+    text-align: center;
+}
+.contenedor2{
+    grid-column: 2;
+    place-content: center;
+    text-align: center;
+
+}
+  .img-hero{
+    margin: auto;    
+    max-width: 50%;
+    height: auto;
+    border-radius: 10px;
+    image-orientation: 1deg;   
+    transform: rotate(-10deg);
+    position: absolute;
+     z-index: 1;
+}

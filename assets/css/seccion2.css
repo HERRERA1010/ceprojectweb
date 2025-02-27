@@ -1,0 +1,8 @@
+.seccion-2{
+    width: 100%;
+    height: auto;
+    min-height: 350px;
+    display: grid; 
+    place-items: center;
+   
+}
