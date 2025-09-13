@@ -1,0 +1,33 @@
+:root {
+  --light-blue: #e6f2ff;
+  --soft-blue: #4888c8;
+  --dark-blue: #0a3d62;
+  --black: #000000;
+  --white: #dfdfdf;
+  --gray: #f5f5f5;
+  --text-dark: #333333;
+}
+/*CLASES DE COLORES*/
+.primary-color {
+  color: var(--dark-blue);
+}
+.secondary-color {
+  color: var(--soft-blue);
+}
+.bg-dark-white {
+  background-color: var(--white) !important;
+}
+/*TEXTO*/
+.lt {
+    letter-spacing: 1px;
+}
+.jetbrains-mono {
+  font-family: "JetBrains Mono", monospace;
+}
+.manrope {
+  font-family: "Manrope", sans-serif;
+}
+/*COLORES DE TEXTO*/
+.text-dark-blue {
+  color: var(--dark-blue) !important;
+}
