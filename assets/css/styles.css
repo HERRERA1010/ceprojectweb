@@ -26,6 +26,10 @@
 }
 .manrope {
   font-family: "Manrope", sans-serif;
+} 
+.fs-xl{
+  font-size: 7vw !important;
+  
 }
 /*COLORES DE TEXTO*/
 .text-dark-blue {
