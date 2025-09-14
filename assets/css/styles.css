@@ -28,8 +28,7 @@
   font-family: "Manrope", sans-serif;
 } 
 .fs-xl{
-  font-size: 6vw !important;
-  
+  font-size: 3em !important;
 }
 /*COLORES DE TEXTO*/
 .text-dark-blue {
@@ -40,4 +39,11 @@
 box-shadow: 10px 10px 5px -5px rgba(0,0,0,0.47);
 -webkit-box-shadow: 10px 10px 5px -5px rgba(0,0,0,0.47);
 -moz-box-shadow: 10px 10px 5px -5px rgba(0,0,0,0.47);
+}
+
+@media (max-width: 768px) {
+  /* Estilos para tablets y móviles */
+  .fs-xl{
+  font-size: 1.2em !important;
+}
 }
