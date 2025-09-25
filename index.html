@@ -1,5 +1,5 @@
-<!doctype html>
-<html lang="es">
+<!DOCTYPE html>
+<html lang="en">
 
 <head>
   <meta charset="utf-8">
@@ -10,6 +10,9 @@
   <link rel="stylesheet" href="assets/css/styles.css">
   <link rel="stylesheet" href="assets/css/quinesSomos.css">
   <link rel="stylesheet" href="assets/css/proceso.css">
+  <link rel="stylesheet" href="assets/css/planes.css">
+  
+  <!-- Bootstrap CSS -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
   <!-- Google Fonts -->
@@ -23,9 +26,7 @@
     integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
-
-<body>
-  <nav class="navbar navbar-expand-lg bg-dark-white navbar-light mb-1">
+  <nav class="navbar navbar-expand-lg bg-dark-white navbar-light mb-1 ">
     <div class="container">
       <a class="navbar-brand" href="#"> <span class=" fs-2 primary-color fw-bold jetbrains-mono">CDP<span
             class=" fs-2 secondary-color fw-normal jetbrains-mono">W</span></span> </a>
@@ -51,19 +52,19 @@
   <div class="container">
     <div class="container mt-3">
       <div class="row align-items-center">
-        <div class="col-12 col-md-6 text-center">
+        <div class="col-12 col-md-6 text-center aSlideIn">
           <img src="assets/img/CD.png" class="img-fluid" alt="Descripción de la imagen">
         </div>
-        <div class="col-12 col-md-6">
+        <div class="col-12 col-md-6 aSlideIn">
           <h2 class="fs-1">"Una buena landing page no es un sitio web. Es tu vendedor 24/7."</h2>
         </div>
       </div>
     </div>
     <!-- SECCION QUIENES SOMOS -->
-    <div class="card text-bg-dark mb-4">
+    <div class="card text-bg-dark mb-4 aSlideIn">
       <img src="assets/img/img3.png" class="card-img " alt="...">
     </div>
-    <div class="container ">
+    <div class="container block">
       <div class="col-12   mt-4">
         <p class=" fw-bold primary-color lt text-left fs-xl">
           Juntamos el talento emergente para poder ofrecer páginas increíbles a un precio accesible para todos.
@@ -72,32 +73,33 @@
       </div>
     </div>
     <!-- PROCESO -->
-    <h2 class="fs-1 text-center mt-5 mb-4">Nuestro Proceso</h2>
-    <div class="row row-cols-1 row-cols-md-2 g-4">
-      <div class="col">
+    <h2 class="fs-1 text-center mt-5 mb-4 aSlideIn">Nuestro Proceso</h2>
+    <div class="row row-cols-1 row-cols-md-2 g-4 mb-5">
+      <div class="col aSlideIn">
         <div class="card">
            <div class="text-center mt-4 mb-4 " ><i class="fa-solid icon-size fa-pen-to-square  "></i></div>
           <div class="card-body">
             <h5 class="card-title mb-4 text-center">Descubrimiento y planificación</h5>
             <p class="card-text">Hablamos contigo para entender tu negocio, tus objetivos y tu público ideal.
-               Te haremos preguntas clave, revisaremos tus ideas (o competencia) y definiremos juntos el alcance del
-              proyecto: estructura, funcionalidades, diseño y plazos.
-               Resultado: Un plan claro y a tu medida, sin sorpresas.</p>
+               Te haremos preguntas clave, revisaremos tus ideas y definiremos juntos el alcance del
+              proyecto: estructura, funcionalidades y diseño. 
+            </p>
           </div>
         </div>
       </div>
-      <div class="col">
+      <div class="col aSlideIn">
         <div class="card">
           <div class="text-center mt-4 mb-4"><i class="fa-solid icon-size fa-ruler-horizontal"></i> </div>
           <div class="card-body">
             <h5 class="card-title mb-4 text-center">Diseño y aprobación</h5>
             <p class="card-text"> Te presentamos propuestas visuales (mockups o wireframes) para que elijas el estilo
-              que mejor representa tu marca. Hacemos ajustes hasta que estés 100% satisfecho.
-              Resultado: Un diseño moderno, funcional y alineado con tu identidad.</p>
+              que mejor representa tu marca. Hacemos ajustes hasta que estés satisfecho. Una vez aprobado,
+              creamos un prototipo navegable para que veas cómo funcionará tu web. 
+              </p>
           </div>
         </div>
       </div>
-      <div class="col">
+      <div class="col aSlideIn">
         <div class="card">
           <div class="text-center mt-4 mb-4"><i class="fa-solid icon-size fa-code"></i></div>
           <div class="card-body">
@@ -109,7 +111,7 @@
           </div>
         </div>
       </div>
-      <div class="col">
+      <div class="col aSlideIn">
         <div class="card">
           <div class="text-center mt-4 mb-4"><i class="fa-solid icon-size fa-rocket"></i></div>
           <div class="card-body">
@@ -117,11 +119,54 @@
             <p class="card-text">Publicamos tu web y te entregamos las llaves… ¡con soporte incluido!
                Revisamos todo al detalle, optimizamos para buscadores (SEO básico) y te explicamos cómo gestionarla.
               Incluimos un periodo de soporte post-lanzamiento para resolver dudas o ajustes menores.
-               Resultado: Tu web en línea, funcionando perfectamente y con alguien que te respalda.</p>
+              </p>
           </div>
         </div>
       </div>
     </div>
+
+    <section class="pricing-section">
+        <div class="container">
+            <h2 class="section-title aSlideIn">Nuestros Planes</h2>
+            <div class="row g-4">
+                <!-- Plan Básico -->
+                <div class="col-12 col-md-6 col-lg-4 aSlideIn">
+                    <div class="card pricing-card">
+                        <div class="card-body">
+                            <h3 class="plan-name">Plan Básico</h3>
+                            <div class="plan-price">$299<span>/único pago</span></div>
+                            <p class="plan-description">Landing page profesional con diseño responsive, formulario de contacto, integración con redes sociales y hasta 5 secciones personalizadas.</p>
+                            <button class="btn-plan">Comprar Ahora</button>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Plan Profesional -->
+                <div class="col-12 col-md-6 col-lg-4 aSlideIn">
+                    <div class="card pricing-card">
+                        <div class="card-body">
+                            <h3 class="plan-name">Plan Profesional</h3>
+                            <div class="plan-price">$499<span>/único pago</span></div>
+                            <p class="plan-description">Todo lo del plan básico más integración con WhatsApp, sistema de reservas, optimización SEO básica y hasta 8 secciones personalizadas.</p>
+                            <button class="btn-plan">Comprar Ahora</button>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Plan Premium -->
+                <div class="col-12 col-md-6 col-lg-4 mx-auto aSlideIn">
+                    <div class="card pricing-card">
+                        <div class="card-body">
+                            <h3 class="plan-name">Plan Premium</h3>
+                            <div class="plan-price">$799<span>/único pago</span></div>
+                            <p class="plan-description">Todo lo del plan profesional más integración con pasarelas de pago, sistema de membresía, análisis avanzado y soporte prioritario durante 6 meses.</p>
+                            <button class="btn-plan">Comprar Ahora</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
 
 
@@ -131,6 +176,8 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
     crossorigin="anonymous"></script>
+    <!-- Bootstrap JS Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 
 </html>

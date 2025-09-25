@@ -19,31 +19,82 @@
 }
 /*TEXTO*/
 .lt {
-    letter-spacing: 1px;
+  letter-spacing: 1px;
 }
 .jetbrains-mono {
   font-family: "JetBrains Mono", monospace;
 }
 .manrope {
   font-family: "Manrope", sans-serif;
-} 
-.fs-xl{
+}
+.fs-xl {
   font-size: 3em !important;
 }
 /*COLORES DE TEXTO*/
 .text-dark-blue {
   color: var(--dark-blue) !important;
 }
+h1 {
+  font-size: 2.5rem;
+} /* 40px */
+h2 {
+  font-size: 2rem;
+} /* 32px */
+h3 {
+  font-size: 1.5rem;
+} /* 24px */
+h4 {
+  font-size: 1.25rem;
+} /* 20px */
+p {
+  font-size: 1rem;
+} /* 16px */
+small {
+  font-size: 0.875rem;
+} /* 14px */
 /*SOMBRAS*/
-.shadow-1{
-box-shadow: 10px 10px 5px -5px rgba(0,0,0,0.47);
--webkit-box-shadow: 10px 10px 5px -5px rgba(0,0,0,0.47);
--moz-box-shadow: 10px 10px 5px -5px rgba(0,0,0,0.47);
+.shadow-1 {
+  box-shadow: 10px 10px 5px -5px rgba(0, 0, 0, 0.47);
+  -webkit-box-shadow: 10px 10px 5px -5px rgba(0, 0, 0, 0.47);
+  -moz-box-shadow: 10px 10px 5px -5px rgba(0, 0, 0, 0.47);
+}
+/*ANIMACIONES*/
+.block {
+  animation: appear  linear;
+  animation-timeline: view();
+  animation-range: 0% cover 40%;
+}
+.aSlideIn {
+  animation: slideIn 0.5s ease-out;
+    animation-timeline: view();
+  animation-range: 0% cover 40%;
+}
+@keyframes slideIn {
+  from {
+    opacity: 0;
+    transform: translateY(-100px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+  
+}
+
+@keyframes appear {
+  from {
+    opacity: 0;
+    scale: 0.5;
+  }
+  to {
+    opacity: 1;
+    scale: 1;
+  }
 }
 
 @media (max-width: 768px) {
   /* Estilos para tablets y móviles */
-  .fs-xl{
-  font-size: 1.2em !important;
-}
+  .fs-xl {
+    font-size: 1.2em !important;
+  }
 }
