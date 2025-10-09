@@ -7,6 +7,9 @@
   --gray: #f5f5f5;
   --text-dark: #333333;
 }
+body {
+  overflow-x: hidden;
+}
 /*CLASES DE COLORES*/
 .primary-color {
   color: var(--dark-blue);
