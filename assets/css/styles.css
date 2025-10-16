@@ -24,11 +24,13 @@ body {
 .lt {
   letter-spacing: 1px;
 }
-.jetbrains-mono {
+.jetbrains-mono{
   font-family: "JetBrains Mono", monospace;
+  
 }
 .manrope {
   font-family: "Manrope", sans-serif;
+   color: var(--dark-blue);
 }
 .fs-xl {
   font-size: 3em !important;

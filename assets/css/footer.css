@@ -1,0 +1,47 @@
+ .footer-m {
+            background-color: var(--dark-blue);
+            padding: 2rem 0;
+            border-top: 1px solid #e9ecef;
+            margin-top: auto;
+        }
+        
+        .empresa-nombre {
+            font-size: 1.5rem;
+            font-weight: 600;
+            color: var(--white);
+            margin-bottom: 1rem;
+        }
+        
+        .contacto-info p {
+            margin: 0.25rem 0;
+            color: var(--white);
+            font-size: 0.95rem;
+        }
+        
+        .aviso-privacidad {
+            font-size: 0.85rem;
+            color: #6c757d;
+            margin-bottom: 0;
+        }
+        
+        /* Estilos para pantallas medianas y grandes */
+        @media (min-width: 768px) {
+            .empresa-nombre {
+                font-size: 1.8rem;
+                margin-bottom: 0;
+            }
+            
+            .contacto-info {
+                text-align: center;
+            }
+            
+            .aviso-privacidad {
+                text-align: end;
+            }
+        }
+        
+        @media (min-width: 992px) {
+            .empresa-nombre {
+                font-size: 2rem;
+            }
+        }
