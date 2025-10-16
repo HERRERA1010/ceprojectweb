@@ -24,14 +24,14 @@ body {
 .lt {
   letter-spacing: 1px;
 }
-.jetbrains-mono{
-  font-family: "JetBrains Mono", monospace;
-  
+
+.orbitron {
+  font-family: "Orbitron", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
 }
-.manrope {
-  font-family: "Manrope", sans-serif;
-   color: var(--dark-blue);
-}
+
 .fs-xl {
   font-size: 3em !important;
 }
