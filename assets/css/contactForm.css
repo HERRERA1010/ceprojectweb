@@ -1,6 +1,6 @@
         
         .contact-card {
-            background: white;
+            background: rgb(235, 235, 235);
             border-radius: 20px;
             box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
             overflow: hidden;
@@ -9,9 +9,9 @@
         }
         
         .card-header {
-            background: linear-gradient(135deg, var(--dark-blue) 0%, var(--soft-blue) 100%);
+            background: var(--soft-blue) !important;
             color: white;
-            padding: 30px 40px;
+            padding: 20px 30px;
             text-align: center;
             border: none;
         }
@@ -20,12 +20,13 @@
             font-weight: 600;
             letter-spacing: 0.5px;
             margin: 0;
-            font-size: 2.8rem !important;
+            font-size: 2.5rem !important;
             color: var(--white);
+            padding: 3%;
         }
         
         .card-body {
-            padding: 40px;
+            padding: 20px;
         }
         
         .form-label {
@@ -60,7 +61,7 @@
         }
         
         .btn-primary {
-            background: linear-gradient(135deg, var(--dark-blue) 0%, var(--soft-blue) 100%);
+           background: var(--soft-blue) !important;
             border: none;
             
             font-size: 1.5rem !important;
@@ -95,6 +96,12 @@
             }
             
             .card-header h2 {
-                font-size: 1.5rem;
+                font-size: 1rem;
             }
+             .card-header h2 {
+            
+            font-size: 1.8rem !important;
+            color: var(--white);
+            padding: 3%;
+        }
         }
