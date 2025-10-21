@@ -1,7 +1,7 @@
 :root {
   --light-blue: #e6f2ff;
   --soft-blue: #4888c8;
-  --dark-blue: #0a3d62;
+  --dark-blue: #12466c;
   --black: #000000;
   --white: #ffffff;
   --gray:  #dfdfdf;
@@ -9,7 +9,7 @@
 }
 body {
   overflow-x: hidden;
-  bg-body: var(--light-blue);
+  background-color: var(--dark-blue);
 }
 /*CLASES DE COLORES*/
 .primary-color {
