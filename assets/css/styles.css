@@ -1,6 +1,7 @@
 :root {
   --light-blue: #e6f2ff;
   --soft-blue: #4888c8;
+  --text-alt:#14d8e4;
   --dark-blue: #12466c;
   --black: #000000;
   --white: #ffffff;
@@ -15,8 +16,8 @@ body {
 .primary-color {
   color: var(--dark-blue);
 }
-.secondary-color {
-  color: var(--soft-blue);
+.secondary-text {
+  color: var(--text-alt);
 }
 .bg-dark-white {
   background-color: var(--white) !important;
@@ -70,4 +71,23 @@ small {
   .fs-xl {
     font-size: 1.2em !important;
   }
+}
+
+/* Aplicar gradiente en navbar: izquierda (--dark-blue) -> derecha (--soft-blue) */
+.navbar-gradient {
+  background: linear-gradient(to right, var(--dark-blue) 0%, var(--dark-blue) 75%, var(--soft-blue) 100%) !important;
+  color: #ffffff;
+}
+
+.navbar-gradient .navbar-brand,
+.navbar-gradient .nav-link {
+  color: #ffffff !important;
+}
+
+.navbar-gradient .navbar-toggler {
+  border-color: rgba(255,255,255,0.15) !important;
+}
+
+.navbar-gradient .navbar-toggler-icon {
+  filter: invert(1) brightness(2) !important;
 }
