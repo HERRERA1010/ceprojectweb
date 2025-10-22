@@ -4,7 +4,7 @@
   --text-alt:#14d8e4;
   --dark-blue: #12466c;
   --black: #000000;
-  --white: #ffffff;
+  --white: #f1f1f1;
   --gray:  #dfdfdf;
   --text-dark: #333333;
 }
@@ -92,10 +92,31 @@ small {
   filter: invert(1) brightness(2) !important;
 }
 
+/* Title glow effect using --soft-blue */
+.title-glow {
+  color: var(--white) !important;
+  text-shadow:
+    0 0 6px rgba(72,136,200,0.95),
+    0 0 12px rgba(72,136,200,0.65),
+    0 0 20px rgba(72,136,200,0.35);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .title-glow { transition: none; }
+}
+
+/* Card accent border using --text-alt */
+.card-accent {
+  border: 1px solid var(--text-alt) !important;
+  border-radius: 1px;
+}
+
 /* Quienes somos: overlay azul y blur en la imagen */
 .img-wrap {
   position: relative;
   overflow: hidden;
+  border-radius: 8px;
+  
 }
 .quienes-img {
   display: block;

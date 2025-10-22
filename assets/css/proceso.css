@@ -1,4 +1,10 @@
 .icon-size {
     font-size: 3em;
-    color: var(--dark-blue);
+    color: var(--text-alt);
+}
+.card-body {
+background-color: var(--dark-blue);
+}
+.card{
+    background-color: var(--dark-blue);
 }
