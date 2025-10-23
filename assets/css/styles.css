@@ -108,7 +108,7 @@ small {
 
 /* Card accent border using --text-alt */
 .card-accent {
-  border: 1px solid var(--text-alt) !important;
+  border: 1px solid var(--white) !important;
   border-radius: 1px;
 }
 
