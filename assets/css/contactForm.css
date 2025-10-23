@@ -9,7 +9,7 @@
         }
         
         .card-header {
-            background: var(--soft-blue) !important;
+            background: var(--dark-blue) !important;
             color: white;
             padding: 20px 30px;
             text-align: center;
@@ -61,7 +61,7 @@
         }
         
         .btn-primary {
-           background: var(--soft-blue) !important;
+           background: var(--darl-blue) !important;
             border: none;
             
             font-size: 1.5rem !important;

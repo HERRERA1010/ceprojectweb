@@ -47,7 +47,7 @@
         }
         
         .btn-plan {
-            background-color: #4888c8;
+            background-color: var(--dark-blue);
             color: white;
             border: none;
             padding: 12px 25px;

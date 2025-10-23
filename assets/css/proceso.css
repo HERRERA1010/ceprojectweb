@@ -1,6 +1,6 @@
 .icon-size {
     font-size: 3em;
-    color: var(--text-alt);
+    color: var(--white);
 }
 .card-body {
 background-color: var(--dark-blue);
