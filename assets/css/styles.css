@@ -1,10 +1,12 @@
 :root {
   --soft-blue: #4888c8;
-  --text-alt:#14d8e4;
-  --dark-blue: #12466c;
+  --text-alt: #9cffff;
+  --dark-blue: #355872;
   --black: #000000;
   --white: #f1f1f1;
   --text-dark: #333333;
+  --contrast-color:#f47246;
+
 }
 body {
   overflow-x: hidden;
@@ -74,7 +76,7 @@ small {
 
 
 .navbar-gradient {
-  background: linear-gradient(to right, var(--dark-blue) 0%, var(--dark-blue) 75%, var(--soft-blue) 100%) !important;
+  background: var(--dark-blue)  !important;
   color: #ffffff;
 }
 
